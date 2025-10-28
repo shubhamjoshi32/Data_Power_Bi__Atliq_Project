@@ -30,6 +30,7 @@ dim_market	Market and region hierarchy for global sales segmentation
 dim_product	Product catalog with category and hierarchy details
 fact_forecast_monthly	Monthly forecast data used for demand accuracy analysis
 fact_sales_monthly	Actual monthly sales facts with quantities, values, and metrics
+
 2️⃣ gdb056 – Cost & Pricing Data
 Table	Description
 freight_cost	Freight and shipment cost details by region and product
@@ -52,16 +53,31 @@ dim_market ↔ freight_cost, fact_sales_monthly
 
 fact_forecast_monthly joined to fact_sales_monthly by product/month for variance tracking
 
-📈 Power BI Views (Dashboards)
+## 📈 Power BI Views (Dashboards)
 
 The dashboard includes five navigable views, each designed for a specific business function:
 
-View	Focus	Key Insights
-Sales View	Regional & product-level sales performance	Actual vs. Forecast, Top/Bottom markets, Growth trends
-Marketing View	Market share and promotional impact	Market segmentation, campaign ROI, sales uplift
-Finance View	Revenue, cost, and profitability tracking	Net margin, deductions, freight & manufacturing costs
-Supply Chain View	Logistics and shipment analysis	Freight cost trends, delivery efficiency, demand vs. supply
-Information View	Executive overview	Consolidated KPIs, global summary metrics, interactive filters
+View	Focus	and  Key Insights
+
+![ER Diagram](Images/Screenshot%202025-10-28%20151901.png)
+
+**Sales View**	Regional & product-level sales performance	Actual vs. Forecast, Top/Bottom markets, Growth trends.
+
+![ER Diagram](Images/Screenshot%202025-10-28%20151908.png)
+
+**Marketing View**	Market share and promotional impact	Market segmentation, campaign ROI, sales uplift.
+
+
+![ER Diagram](Images/Screenshot%202025-10-28%20151855.png)
+**Finance View**	Revenue, cost, and profitability tracking	Net margin, deductions, freight & manufacturing costs
+
+![ER Diagram](Images/Screenshot%202025-10-28%20151914.png)
+
+**Supply Chain View**	Logistics and shipment analysis	Freight cost trends, delivery efficiency, demand vs. supply
+
+![alt text](Images/image.png)
+
+**Information View**	Quick info and contact details
 
 Each view links seamlessly via navigation buttons, ensuring smooth exploration across departments.
 
@@ -75,13 +91,10 @@ KPIs Used: Revenue, Forecast Accuracy, Gross Margin %, Freight Cost %, Net Profi
 
 DAX Measures: Time intelligence, cumulative totals, YoY comparisons
 
-Design: Interactive slicers, tooltips, bookmarks for intuitive navigation
 
 🚀 Business Impact
 
-Reduced manual report preparation by 80% through automation
-
-Improved forecast accuracy tracking with monthly variance reports
+Reduced manual report preparation by through automation
 
 Enhanced profitability visibility at SKU and regional levels
 

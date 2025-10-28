@@ -78,19 +78,23 @@ The dashboard includes five navigable views, each designed for a specific busine
 
 View	Focus	and  Key Insights
 
-![ER Diagram](Images/Screenshot%202025-10-28%20151901.png)
+![alt text](Images/Home.png)
+
+- **Home page View**	for menu like navigation to other views
+
+![alt text](Images/Screenshot%202025-10-28%20151901.png)
 
 - **Sales View**	Regional & product-level sales performance	Actual vs. Forecast, Top/Bottom markets, Growth trends.
 
-![ER Diagram](Images/Screenshot%202025-10-28%20151908.png)
+![alt text](Images/Screenshot%202025-10-28%20151908.png)
 
 - **Marketing View**	Market share and promotional impact	Market segmentation, campaign ROI, sales uplift.
 
 
-![ER Diagram](Images/Screenshot%202025-10-28%20151855.png)
+![alt text](Images/Screenshot%202025-10-28%20151855.png)
 - **Finance View**	Revenue, cost, and profitability tracking	Net margin, deductions, freight & manufacturing costs
 
-![ER Diagram](Images/Screenshot%202025-10-28%20151914.png)
+![alt text](Images/Screenshot%202025-10-28%20151914.png)
 
 - **Supply Chain View**	Logistics and shipment analysis	Freight cost trends, delivery efficiency, demand vs. supply
 
